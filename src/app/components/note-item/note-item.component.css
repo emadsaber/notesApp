@@ -1,0 +1,18 @@
+.noteDescription{
+    font-style: italic;
+    color: gray;
+}
+.noteCompleted{
+    text-align: left;
+}
+.noteControls{
+    font-weight: bolder;
+}
+.noteDelete{
+    background-color: lightcoral;
+    font-weight: bold;
+    font-size:small;
+}
+.is-complete{
+    text-decoration: line-through;
+}

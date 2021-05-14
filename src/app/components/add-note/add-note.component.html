@@ -1,0 +1,9 @@
+<form (ngSubmit)="onSubmit()"  name="frmAddNote">
+    <div class="row addNote">
+        <div class="btn-group" role="group" aria-label="">
+            <input name="addNote" placeholder="What's on your mind?..." class="addNoteTextBox" [(ngModel)]="noteText">
+
+            <input type="submit" class="btn btn-primary" value="Save"/>
+        </div>
+    </div>
+</form>

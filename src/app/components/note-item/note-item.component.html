@@ -1,0 +1,12 @@
+<div [ngClass]="setClasses()">
+    <div class="col-1 noteCompleted">
+        <input type="checkbox" value="true" (change)="onNoteToggle()"/>
+    </div>
+    <div class="col-9">
+        <span>{{ note.Text }}</span>
+    </div>
+    
+    <div class="col-2 noteControls">
+        <input type="button" class="noteDelete" value="Delete" (click)="onDelete(note)"/>
+    </div>
+</div>
